@@ -1,0 +1,174 @@
+
+
+  .square-div1 {
+      width: 150px;
+      height: 150px;
+      background-color: rgb(194, 109, 194);
+      margin-top: 2.5%;
+  }
+
+  .square-div2 {
+    width: 150px;
+    height: 150px;
+      background-color: rgb(109, 194, 130);
+      position:relative;
+      top: 100px;
+      left: 100px;
+  }
+
+  .square-div3 {
+    width: 150px;
+    height: 150px;
+      background-color: rgb(108, 108, 200);
+      position:relative;
+      top: 100px;
+      left: 100px;
+  }
+
+  .square-div4 {
+    width: 150px;
+    height: 150px;
+      background-color: rgb(108, 108, 200);
+      position:relative;
+      top: 200px;
+      left: 200px;
+      margin-top: 2%;
+  }
+
+  .square-div5{
+    width: 150px;
+    height: 150px;
+      background-color: rgb(109, 194, 130);
+      position:relative;
+      top: 100px;
+      right: 100px;
+  }
+
+  .square-div6 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(194, 109, 194);
+    position:relative;
+      top: 100px;
+      right: 100px;
+  }
+
+  .square-div7 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(109, 194, 130);
+    position:relative;
+    top: 100px;
+    left: 1200px;
+  }
+
+  .square-div8 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 109, 194);
+    position:relative;
+    top: 170px;
+    left: 1030px;
+  }
+
+  .square-div9 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(108, 108, 200);
+    position:relative;
+    top: 85px;
+    left: 1060px;
+  }
+
+  .square-div10 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 109, 194);
+    position:relative;
+    top: 5px;
+    left: 1125px;
+  }
+
+  .square-div11 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(109, 194, 130);
+    position:relative;
+    bottom: 25px;
+    left: 1135px;
+  }
+
+  .square-div12 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(108, 108, 200);
+    position:relative;
+    bottom: 90px;
+    left: 1155px;
+  }
+
+  .square-div13 {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(109, 194, 130);
+    position:relative;
+    bottom: 170px;
+    left: 1225px;
+  }
+
+  .square-div14 {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(108, 108, 200);
+    position:relative;
+    bottom: 190px;
+    left: 1245px;
+  }
+
+  .square-div15 {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(194, 109, 194);
+    position:relative;
+    bottom: 230px;
+    left: 1265px;
+  }
+
+  @media (max-width: 600px) {
+    /* For mobile screens */
+    h1 {
+        font-size: 1.5em;  /* Slightly smaller heading */
+    }
+
+    h2 {
+        font-size: 1em;  /* Slightly smaller subheading */
+    }
+
+    div.box {
+        width: 90%; /* Allow more space on smaller screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    /* For larger screens like desktops */
+    h1 {
+        font-size: 2.5em;  /* Slightly larger heading */
+    }
+
+    h2 {
+        font-size: 1.5em;  /* Slightly larger subheading */
+    }
+
+    div.box {
+        max-width: 500px; /* Slightly larger box on big screens */
+    }
+}
+
+ 
+
+
+
+
+
+
+
